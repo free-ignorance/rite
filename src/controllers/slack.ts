@@ -1,6 +1,6 @@
 import * as express from "express";
 import { DefaultController } from "./";
-import { slackFortuneResponse } from "../models/rite";
+import { slackRiteResponse } from "../models/rites";
 
 class SlackController extends DefaultController {
   constructor() {
@@ -16,7 +16,7 @@ class SlackController extends DefaultController {
     request: express.Request,
     response: express.Response
   ) => {
-    response.status(200).send(slackFortuneResponse());
+    response.status(200).send(slackRiteResponse());
   };
 }
 
