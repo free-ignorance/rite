@@ -21,7 +21,7 @@ This RESTful API returns a json object with Rituals or Rites, which are meant to
 ### Basic usage
 
 ```bash
-curl https://riteapi.herokuapp.com
+curl https://riteapi-578416f3dc56.herokuapp.com/
 ```
 
 
