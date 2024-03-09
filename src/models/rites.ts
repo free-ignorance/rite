@@ -16,9 +16,7 @@ interface RiteSlackResponse {
   text: string;
 }
 
-const riteList = [
-  "You will make a rite with your friend.",
-];
+const riteList = ["You will make a rite with your friend."];
 
 function getRite(): string {
   return riteList[Math.floor(Math.random() * riteList.length)];
