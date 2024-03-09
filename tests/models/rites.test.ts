@@ -27,7 +27,7 @@ describe('/models', () => {
       });
       it('should return a rite response with a message', () => {
         const rite = defaultRiteResponse();
-        expect(rite.data.message).toBeDefined();
+        expect(rite.data.rite).toBeDefined();
       });
     });
   });
